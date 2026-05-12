@@ -17,7 +17,7 @@ class Ctx < Formula
 
   def install
     bin.install "ctx", "ctx-server"
-    prefix.install_metafiles "README.md", "LICENSE"
+    prefix.install_metafiles
   end
 
   test do
